@@ -1,0 +1,20 @@
+{
+  "name": "server-node",
+  "version": "1.0.0",
+  "description": "Mi primer server en Node 😋",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "José Armando HS 🐨",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2",
+    "mysql2": "^2.3.3"
+  }
+}
