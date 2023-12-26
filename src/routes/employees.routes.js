@@ -18,5 +18,4 @@ router.patch('/employees/:id', updateEmployee);
 
 router.delete('/employees/:id', deleteEmployee);
 
-
-export default router
+export default router;
