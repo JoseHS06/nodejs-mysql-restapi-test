@@ -4,6 +4,12 @@
   "description": "Mi primer server en Node 😋",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node --experimental-modules src/index.js"
